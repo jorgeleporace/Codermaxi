@@ -30,6 +30,9 @@
 .logoGls{
     height: 90px;
 }
+.logo {
+    width: 85px;
+}
 .menu{
     display: flex;
     list-style: none;
@@ -156,7 +159,9 @@ small{
     align-items: flex-start;
     justify-content: flex-start;
     font-size: xx-large;
-    row-gap: 20px;
+}
+.redSocial a{
+    padding: 20px;
 }
 .box{
     margin: 20px;
