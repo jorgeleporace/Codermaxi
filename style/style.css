@@ -161,10 +161,17 @@ small{
     font-size: xx-large;
 }
 .redSocial a{
-    padding: 20px;
+    padding: 10px;
 }
 .box{
     margin: 20px;
     gap: 10px;
     justify-content: center; 
+}
+.staffContainer{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
