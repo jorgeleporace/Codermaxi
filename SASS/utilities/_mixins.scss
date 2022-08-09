@@ -1,0 +1,8 @@
+@mixin barraPrincipal {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(222, 222, 245);
+    align-items: center;
+    padding: 10px;
+}
