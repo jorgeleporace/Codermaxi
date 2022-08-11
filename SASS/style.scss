@@ -4,5 +4,43 @@
 @import "./layout/main";
 @import "./layout/footer";
 @import "./utilities/extends";
-@import "../bootstrap-5.1.3/scss/bootstrap.scss";
+.navbar {
+     background-color: lightblue;
+}
+.logo {
+    width: 100px;
+}
+.footer {
+    text-align: center;
+}
+.pepe {
+    background-color: lightblue;
+    }
+.box {
+    text-align: center;
+    & {
+        font-size: 2rem;
+    }
+    & {
+        margin-top: 50px;
+    }
+        &__.grupo1 {
+        font-size: x-large;
+        color: rgb(46, 115, 115);
+        }
+            &__.grupo2 {
+                margin-bottom: 1rem;
+                text-align: center;
+                padding-bottom: 1rem;
+                justify-content: center;
+            }
+                &__.redSocial {
+                    font-size: medium;
+                    color: blue;
+                    text-decoration: none;
+                    justify-content: space-evenly;
+                }
+}
+
+
 

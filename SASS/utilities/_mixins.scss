@@ -6,3 +6,9 @@
     align-items: center;
     padding: 10px;
 }
+@mixin flexCenterColumn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+}
