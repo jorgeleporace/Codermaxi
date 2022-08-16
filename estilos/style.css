@@ -17,6 +17,14 @@
 .logo {
   width: 100px;
 }
+.parrafoPrincipal{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  text-justify: distribute;
+  text-align: justify;
+} 
 
 .footer {
   text-align: center;
@@ -25,7 +33,25 @@
 .pepe {
   background-color: lightblue;
 }
-
+.logo {
+  width: 100px;
+}
+.parrafoPrincipal{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.formularioPerfil {
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
 .box {
   text-align: center;
 }
@@ -35,19 +61,22 @@
 .box {
   margin-top: 50px;
 }
-.box__.grupo1 {
+.box__ .grupo1 {
   font-size: x-large;
   color: rgb(46, 115, 115);
+  background-color: lightblue;
 }
-.box__.grupo2 {
-  margin-bottom: 1rem;
+.box__ .grupo2 {
+  margin-bottom: 4rem;
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: 4rem;
   justify-content: center;
+  background-color: lightblue;
 }
-.box__.redSocial {
+.box__ .redSocial {
   font-size: medium;
   color: blue;
   text-decoration: none;
   justify-content: space-evenly;
+  background-color: lightblue;
 }/*# sourceMappingURL=style.css.map */

@@ -1,46 +1,15 @@
-@import "./utilities/variables";
-@import "./layout/reset";
-@import "./layout/header";
-@import "./layout/main";
-@import "./layout/footer";
-@import "./utilities/extends";
-.navbar {
-     background-color: lightblue;
-}
-.logo {
-    width: 100px;
-}
-.footer {
-    text-align: center;
-}
-.pepe {
-    background-color: lightblue;
-    }
-.box {
-    text-align: center;
-    & {
-        font-size: 2rem;
-    }
-    & {
-        margin-top: 50px;
-    }
-        &__.grupo1 {
-        font-size: x-large;
-        color: rgb(46, 115, 115);
-        }
-            &__.grupo2 {
-                margin-bottom: 1rem;
-                text-align: center;
-                padding-bottom: 1rem;
-                justify-content: center;
-            }
-                &__.redSocial {
-                    font-size: medium;
-                    color: blue;
-                    text-decoration: none;
-                    justify-content: space-evenly;
-                }
-}
+@import "../Utilities/variables"
+@import "./reset";
+@import "../SASS/layout/header";
+@import "../SASS/layout/main";
+@import "../SASS/layout/footer";
+@import "../Utilities/extends";
+@import "../Utilities/mixins"
+
+
+
+
+
 
 
 

@@ -1,0 +1,36 @@
+.footer {
+    text-align: center;
+    background-color: lightblue;
+}
+.pepe {
+    background-color: lightblue;
+    }
+.box {
+    text-align: center;
+    & {
+        font-size: 2rem;
+        background-color: lightblue;
+    }
+    & {
+        margin-top: 50px;
+    }
+        &__.grupo1 {
+        font-size: x-large;
+        color: rgb(46, 115, 115);
+        background-color: lightblue;
+        }
+            &__.grupo2 {
+                margin-bottom: 1rem;
+                text-align: center;
+                padding-bottom: 1rem;
+                justify-content: center;
+                background-color: lightblue;
+            }
+                &__.redSocial {
+                    font-size: medium;
+                    color: blue;
+                    text-decoration: none;
+                    justify-content: space-evenly;
+                    background-color: lightblue;
+                }
+}
